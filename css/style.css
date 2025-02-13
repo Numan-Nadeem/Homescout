@@ -3,7 +3,6 @@
 
 /* ---------------------------- */
 
-
 * {
     margin: 0;
     padding: 0;
@@ -89,7 +88,7 @@ nav ul li:hover::after {
 #hero::after {
     content: " ";
     position: absolute;
-    background-image: url('https://github.com/Numan-Nadeem/Hotelscout/blob/master/img/hero-img.jpg');
+    background-image: url('/Hotelscout/img/hero-img.jpg');
     left: 0;
     top: 0;
     right: 0;
@@ -147,7 +146,6 @@ nav ul li:hover::after {
 .hero-fields form input:focus {
     outline: none;
 }
-
 
 .hero-fields:focus-within {
     border: 3px solid #0802A3;
@@ -327,11 +325,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     right: 0;
     bottom: 0;
     z-index: -1;
-    background-image: url('https://github.com/Numan-Nadeem/Hotelscout/blob/master/img/contact-cover.jpg');
+    background-image: url('/Hotelscout/img/contact-cover.jpg');
     background-size: cover;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-
 }
 
 #contact-subsection {
@@ -401,11 +398,10 @@ fieldset input[type="submit"]:hover {
     right: 0;
     bottom: 0;
     z-index: -1;
-    background-image: url('https://github.com/Numan-Nadeem/Hotelscout/blob/master/img/about-cover.jpg');
+    background-image: url('/Hotelscout/img/about-cover.jpg');
     background-size: cover;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-
 }
 
 #about-subsection {
